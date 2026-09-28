@@ -1,0 +1,41 @@
+# IDE and editor metadata
+.idea/
+*.iml
+.vscode/
+*.swp
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+local.properties
+keystore.properties
+*.jks
+*.keystore
+*.p12
+*.pem
+
+# Gradle and Android build outputs
+.gradle/
+**/build/
+captures/
+*.apk
+*.aab
+
+# Maven and Java build outputs
+**/target/
+*.class
+hs_err_pid*
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+tmp/
+temp/

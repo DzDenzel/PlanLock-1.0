@@ -1,0 +1,16 @@
+* text=auto
+
+# Keep Unix launchers portable and Windows launchers native.
+gradlew text eol=lf
+*.sh text eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binary assets and archives must not be line-normalized.
+*.jar binary
+*.png binary
+*.webp binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary

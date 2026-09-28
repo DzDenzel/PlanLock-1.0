@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">律刻 PlanLock</string>
+    <string name="accessibility_desc">用于在计划执行时段识别前台应用并拦截非白名单应用。</string>
+</resources>
